@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+html, body {
+        margin: 0;
+        padding: 0;
+        font-family:ヒラギノ色ゴ　Pro W3 , "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka,"MS Pゴシック", "MS PGthic", "sans-serif";
+      font-size: 16px;
+      color: #0c5840;
+}
+h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        padding: 0;
+}
+p {
+        margin-bottom: 30px;
+        font-family: Times New Roman;
+
+        font-size: 20px;
+}
+a {
+        text-decoration: none;
+}
+body {
+        width: 100%;
+        background: #fafafa;
+}
+header{
+       width: 960px;
+       height:160px;
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+       vertical-align: middle;
+}
+.title-area {
+       height: 40px;
+       padding-top: 30px;
+       padding-bottom: 30px;
+       background: linear-gradient(#bfbe2c, #e1f53f);
+}
+nav {
+       height: 60px;
+       margin: 0;
+       padding: 0;
+       background: #e1f53f;
+}
+nav ul {
+       width: 100%;
+       margin: 0;
+       padding: 0;
+       font-size:0;
+}
+nav ul li {
+        display: inline-block;
+        width: 33.3333333333%;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+}
+nav ul li a {
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ce9959;
+        text-decoration:none;
+        height: 30px;
+        line-height: 30px;
+        padding: 15px 0;
+        border-top: 1px solid #fff;
+        border-left: 1px solid #ffffff;
+}
+nav ul li a:hover{
+       font-size: 22px;
+       color: orange;
+       padding: 14px 0 15px 0;
+}
+nav ul li a.current{
+       color: #c12727;
+}
+nav ul li:first-child a{
+       border-left: none;
+}
+.page-title{
+       font-size: 2.5em;
+       line-height: 40px;
+       margin: 0;
+       color: #4d5bbb;
+}
+#container{
+      width: 960px;
+      min-height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      background: #fafafa;
+}
+#main{
+     width: 70%;
+     background: #fff;
+     margin: 0;
+     float: left;
+}
+#sub{
+     width: 30%;
+     background: #fafafa;
+     margin: 0;
+     float: left;
+     height: auto;
+}
+footer{
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0;
+    background: #bfbe2c;
+    text-align: center;
+    color: #fff;
+}
+footer span.name{
+    font-weight: bold;
+}
+.title{
+    margin: 0 0 30px 0;
+    height: 40px;
+    line-height: 30px;
+    font-size: 26px;
+    padding:  5px 0 5px 10px;
+    border-left: 5px solid #4169e1;
+    border-bottom: 1px solid #4169e1;
+}
+
+.title2{
+  height: 40px;
+  font-size: 26px;
+  border-left: 5px solid #e1f53f;
+  border-bottom: 1px solid #e1f53f;
+  padding: 5px 0px 5px 10px;
+  margin: 25px 50px 20px 50px;
+}
+.title4{
+  height: 40px;
+  font-size: 26px;
+  border-left: 5px solid #e1f53f;
+  padding: 5px 0px 5px 10px;
+  margin: 25px 50px 20px 50px;
+}
+#myimg{
+  max-width: 572px;
+  width: 100%;
+  height: auto;
+      margin-left: 50px;
+}
+
+.table1{
+  width: 572px;
+  margin: 30px 50px 0px 50px;
+  border-collapse: collapse;
+}
+
+.tabletitle{
+  background: #bfbe2c;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid #bfbe2c;
+}
+
+.item{
+  background: #8b95b5;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #8b95b5;
+}
+
+
+.itemb{
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border: 1px solid #8b95b5;
+}
+
+.title3{
+  background: #e1f53f;
+  color: #c12727;
+  padding: 10px 10px 10px 15px;
+  margin: 20px 25px -20px 25px;
+}
+
+.linkka{
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: -20px;
+  padding-bottom: 10px;
+  color: #black
+  background: white;
+}
+
+#sub ul li a{
+  color: #b51cc7;
+}
+
+#sub ul li{
+  margin-bottom: 10px;
+  padding-top: 12px;
+}
+
+.kn{
+  border-top: 1px solid #8b95b5;
+  margin-top: 50px;
+}
+.titleb{
+  color: #263c90;
+  border: 3px solid #cc4e95;
+  margin-top: 30px;
+  border-radius: 36px;
+  text-align: center;
+  padding: 15px;
+  width: 290px;
+  margin: 30px auto 10px auto;
+  background: #91c780;
+}
+.titleb:hover{
+  color: white;
+  border: 3px solid #263c90;
+  background: #263c90;
+}
+.HAI{
+  margin: 20px 0px 0px 50px;
+}
+
+.nhatkyimg{
+  width: 300px;
+  height: 175px;
+  float: right;
+  margin:20px;
+}
+
+.ANHHAI{
+  padding-left: 55px;
+  color: red;
+  font-weight: bold;
+}
+
+.trananimg{
+  max-width: 572px;
+  width: 100%;
+  height: auto;
+  margin:50px 40px 50px 40px;
+}
+.japanimg{
+  max-width: 572px;
+  width: 100%;
+  height: auto;
+  margin:50px 0 50px 50px;
+}
+.mytxt{
+  margin: 30px 50px 20px 50px;
+  font-size: 15px;
+  color: #65167d;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 960px;
+}
+@media screen and (max-width: 480px) {
+  html, body, header, #container, #main, #sud {
+    float:none;
+    width: 100%;
+  when the viwport is 800px or smaller*/}
+  header{
+    height: auto;
+  }
+nav{
+  height: auto;
+}
+nav ul li{
+  width: 100%;
+  display: list-item;
+}
+nav ul li a{
+  border-left: none;
+}
+#smp1,#color,#main,#Hobby {
+  display: block;
+  width: auto;
+  border-left: o;
+
+}
+.main-inner {
+  margin: 20px;
+}
